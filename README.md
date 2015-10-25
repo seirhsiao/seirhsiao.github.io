@@ -1,6 +1,5 @@
 # 博客地址
-personal blog
-<seirhsiao.github.io/>
+<http://seirhsiao.github.io/>
 
 # 必改内容
 
