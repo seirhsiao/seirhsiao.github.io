@@ -5,11 +5,12 @@ permalink: /about/
 icon: octicon-heart
 isNavItem: true
 ---
+
 ### 关于我
 
-> Java & Clojure 开发软件工程师，专注于Java开发，热衷于javaWeb开发。爱看书、好技术、喜欢轻音乐，乐于分享Java技术。
-> 鄙人姓萧，名建芳，字俊贤。一介书生耳，胸怀鸿鹄之志，身兼济世之才，而苦于无所施，可谓从戎无望、报国无门。
-> 相貌尚可，眉清目秀，天庭饱满，身高八尺，潇洒闲雅，评学兼优； 爱好甚广，三教九流，四诗五经，略有涉猎；勤于锻炼, 严于律己，洁身自好。
++ Java & Clojure 开发软件工程师，专注于Java开发，热衷于javaWeb开发。爱看书、好技术、喜欢轻音乐，乐于分享Java技术。
++ 鄙人姓萧，名建芳，字俊贤。一介书生耳，胸怀鸿鹄之志，身兼济世之才，而苦于无所施，可谓从戎无望、报国无门。
++ 相貌尚可，眉清目秀，天庭饱满，身高八尺，潇洒闲雅，评学兼优； 爱好甚广，三教九流，四诗五经，略有涉猎；勤于锻炼, 严于律己，洁身自好。
 
 ---
 
@@ -29,14 +30,17 @@ isNavItem: true
 
 这个博客主要用于记录一下开发路上的风景。
 
-2015.3         |  增加了底栏的自适应内容高度的效果。不会因为页面内容太少而紧挨着内容。首页添加了文章分类切换的动画。使用 [HighLightJS](https://highlightjs.org/) 进行代码高亮，放弃了 jekyll 推荐的 pygments，HighLightJS 配合 MarkDown 书写太方便了，直接缩进一下就被解释为代码了。
-2015.1         |  尝试修改博客界面，使用 [BootStrap](http://getbootstrap.com/) 布局，增加主页右侧的分类列表。
-2014.12        |  初步使用 jekyll 搭建好静态博客。但是界面使用的默认的，还没有修改。详情可以日志 [Jekyll 搭建静态博客](http://gaohaoyang.github.io/2015/02/15/create-my-blog-with-jekyll/)，最后有原始的界面截图。
-2014.7         |  学习 MarkDown  [MarkDown](http://markdown.tw/) 于是尝试自己用 jekyll 建一个博客。
-2014.7         |  学习 Git 的时候接触到 GitHub 从而了解了 [GitHub Pages](http://pages.github.com/) 于是尝试自己用 jekyll 建一个博客。   
-2014.5          |  尝试过使用 WordPress 在京东云擎上建站，当时建好后比较卡，不了了之了。
++ 2015.03  |  增加了底栏的自适应内容高度的效果。不会因为页面内容太少而紧挨着内容。首页添加了文章分类切换的动画。使用 [HighLightJS](https://highlightjs.org/) 进行代码高亮，放弃了 jekyll 推荐的 pygments，HighLightJS 配合 MarkDown 书写太方便了，直接缩进一下就被解释为代码了。
 
-通过搭建这个静态博客，学到最多的就是 Git 的语法了，现在对 Git 的操作越来越熟练了。  
++ 2015.01  |  尝试修改博客界面，使用 [BootStrap](http://getbootstrap.com/) 布局，增加主页右侧的分类列表。
+
++ 2014.12  |  初步使用 jekyll 搭建好静态博客。但是界面使用的默认的，还没有修改。详情可以日志 [Jekyll 搭建静态博客](http://seirhsiao.github.io/2015/02/12/create-my-blog-with-jekyll/)，最后有原始的界面截图。
+
++ 2014.07  |  学习 [MarkDown](http://markdown.tw/) 于是尝试自己用 jekyll 建一个博客。
+
++ 2014.07  |  学习 Git 的时候接触到 GitHub 从而了解了 [GitHub Pages](http://pages.github.com/) 于是尝试自己用 jekyll 建一个博客。   
+
++ 2014.05  |  尝试过使用 WordPress 在京东云擎上建站，当时建好后比较卡，不了了之了。通过搭建这个静态博客，学到最多的就是 Git 的语法了，现在对 Git 的操作越来越熟练了。  
 
 ---
 
@@ -102,5 +106,3 @@ isNavItem: true
 9.  <http://github.thinkingbar.com/>
 10. <http://lhzhang.com/>
 11. <http://enml.github.io/site/>
-
-Comment below to exchange link with me.  
