@@ -1,0 +1,45 @@
+permalink: /:year-:month-:day/:title/
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [
+   "no_intra_emphasis"
+   ,"fenced_code_blocks"
+   ,"autolink"
+   ,"tables"
+   ,"strikethrough"
+   ,"superscript"
+   ,"with_toc_data"
+   ,"footnotes"
+   ,"highlight"
+   ,"underline"
+   ,"quote"
+   ,"lax_spacing"
+   ,"prettify"
+   ,"tables"
+#   ,"html_toc"
+  ]
+
+
+
+paginate: 10
+paginate_path: ":num"
+baseurl: ""
+
+
+
+title: "Hsiao"
+email: "309183912@qq.com"
+description: "Developer"
+gitcafe_username: "hsiao"
+github_username: "seirhsiao"
+swiftype_searchId: "ZMWTXs7MoAv-gPtVRALu" #"vWL-2K-Ne8jwsYCsaxC7"#"w9B8DbvAyrTrsBrBsnc8" "s4178kShfg_-MMe4Rh8G" 
+disqus_shortname: "hsiao"
+
+
+
+url: "http://hsiao.gitcafe.io"
+imgrepo: "http://hsiao.gitcafe.io/static/img"
+#url: "http://127.0.0.1:4000"
+#imgrepo: "http://127.0.0.1:4000/static/img"
