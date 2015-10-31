@@ -73,7 +73,9 @@ isNavItem: true
 +   [fiona23](http://fiona23.github.io/)
 +   [xiongyingqi](http://xiongyingqi.com/)
 +   [xinqiu](http://xinqiu.me/)
++   [cnfeat](https://github.com/cnfeat)
 +   订阅的Blog:
++   [yihui](http://yihui.name/)
 +   [Binuxの杂货铺](http://blog.binux.me/)
 +   [PSJay Blog](http://blog.psjay.com/)
 +   [Robot Shell](https://blog.robotshell.org/)
