@@ -1,1 +1,114 @@
-@-webkit-keyframes cursor-blink{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@-moz-keyframes cursor-blink{0%{opacity:0}50%{opacity:1}100%{opacity:0}}@keyframes cursor-blink{0%{opacity:0}50%{opacity:1}100%{opacity:0}}body{background-color:#000}.four-oh-four{position:relative;top:0;left:0;min-height:100vh;min-width:100vw;z-index:2;background-color:#000;transition:opacity .3s ease-out;background-position:center center;background-repeat:no-repeat}.four-oh-four .dJAX_internal{opacity:0}.four-oh-four form,.four-oh-four input{position:fixed;top:0;left:0;opacity:0;background-color:#000}.terminal{position:relative;padding:4rem}.terminal .prompt{color:#1ff042;display:block;font-family:AndaleMono,monospace;font-weight:700;text-transform:uppercase;font-size:.9em;letter-spacing:.15em;white-space:pre-wrap;text-shadow:0 0 2px rgba(31,240,66,.75);line-height:1;margin-bottom:.75em}.terminal .prompt:before{content:'> ';display:inline-block}.terminal .new-output{display:inline-block}.terminal .new-output:after{display:inline-block;vertical-align:-.15em;width:.75em;height:1em;margin-left:5px;background:#1ff042;box-shadow:1px 1px 1px rgba(31,240,66,.65),-1px -1px 1px rgba(31,240,66,.65),1px -1px 1px rgba(31,240,66,.65),-1px 1px 1px rgba(31,240,66,.65);-webkit-animation:cursor-blink 1.25s steps(1) infinite;-moz-animation:cursor-blink 1.25s steps(1) infinite;animation:cursor-blink 1.25s steps(1) infinite;content:''}.kittens p{letter-spacing:0;opacity:0;line-height:1rem}.kitten-gif{margin:20px;max-width:300px}.four-oh-four-form{opacity:0;position:fixed;top:0;left:0}
+body {
+  background-color: #2F3242;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -400px;
+}
+
+.message-box {
+  height: 200px;
+  width: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: 50px;
+  color: #FFF;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.message-box h1 {
+  font-size: 60px;
+  line-height: 46px;
+  margin-bottom: 40px;
+}
+
+.buttons-con .action-link-wrap {
+  margin-top: 40px;
+}
+
+.buttons-con .action-link-wrap a {
+  background: #68c950;
+  padding: 8px 25px;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px
+}
+
+.buttons-con .action-link-wrap a:hover {
+  background: #5A5C6C;
+  color: #fff;
+}
+
+#Polygon-1,
+#Polygon-2,
+#Polygon-3,
+#Polygon-4,
+#Polygon-4,
+#Polygon-5 {
+  -webkit-animation: float 1s infinite ease-in-out alternate;
+  animation: float 1s infinite ease-in-out alternate;
+}
+
+#Polygon-2 {
+  -webkit-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+#Polygon-3 {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+}
+
+#Polygon-4 {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+#Polygon-5 {
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+}
+
+@-webkit-keyframes float {
+  100% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@keyframes float {
+  100% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@media (max-width: 450px) {
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -190px;
+  }
+
+  .message-box {
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -190px;
+    text-align: center;
+  }
+}
