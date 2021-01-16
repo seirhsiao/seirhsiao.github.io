@@ -1,4 +1,5 @@
 # 博客地址
+
 <http://seirhsiao.github.io/>
 
 # 必改内容
@@ -12,7 +13,6 @@
 设置方法可参考 <http://opiece.me/2015/04/16/site-search-by-swiftype/>
 
 设置完毕后，您需要修改 `_config.yml` 中 `swiftype_searchId`。
-
 
 ## 2.disqus
 

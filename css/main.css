@@ -1,19 +1,4 @@
 @charset "utf-8";
-/* 转换 px 为 rem 默认字体大小为 100px 来计算 rem 的值 */
-html {font-size: 100px;}
-/* 放大 1.1 倍的设备 */
-@media (min-width: 751px), (min-width: 376px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
-  html {
-    font-size: 110px;
-  }
-}
-/* 放大 1.2 倍的设备 */
-@media (min-width: 1081px), (min-width: 541px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 415px) and (-webkit-min-device-pixel-ratio: 3) {
-  html {
-    font-size: 120px;
-  }
-}
-/* 以上内容是根据 html 标签的文字改变页面中元素的大小 */
 
 /* CSS Document */
 * {
@@ -64,44 +49,47 @@ body {
   font-family: "Microsoft Yahei";
   background: url(../images/bg.png)no-repeat;
   background-size: 100% auto;
-  /*width: 100%;*/
-  /*height: 100%;*/
-  /*position: absolute;*/
+  /*width: 100%;
+     */
+  /*height: 100%;
+     */
+  /*position: absolute;
+     */
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.png', sizingMethod='scale');
 }
 
 .index-con {
-  width: 10rem;
-  height: 4.5rem;
-  margin: 1.4rem auto 0;
+  width: 20rem;
+  height: 9rem;
+  margin: 2.8rem auto 0;
   position: relative;
 }
 
 .index-con li {
-  width: 3.35rem;
+  width: 6.7rem;
   float: left;
-  margin: 0 0.1rem 0.05rem 0;
+  margin: 0 0.2rem 0.1rem 0;
   position: relative;
 }
 
 *html .index-con li {
-  margin: 0 0.1rem 0.1rem 0;
+  margin: 0 0.2rem 0.2rem 0;
 }
 
 *html .index-con .in-zxl {
-  margin-top: -0.1rem;
+  margin-top: -0.2rem;
 }
 
 .index-con li a {
-  font-size: 0.3rem;
+  font-size: 0.6rem;
   color: #fff !important;
-  line-height: 0.63rem;
+  line-height: 1.26rem;
   zoom: 1;
   position: relative;
 }
 
 .in-kct a {
-  height: 3rem;
+  height: 6rem;
   display: block;
   text-align: center;
 }
@@ -111,17 +99,17 @@ body {
 }
 
 .in-kct i {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 3rem;
+  height: 3rem;
   display: block;
   background: url(../images/portfolio.png) no-repeat;
   float: left;
-;
-  margin: 0.4rem 0.95rem 0 0.95rem;
+  ;
+  margin: 0.8rem 1.9rem 0 1.9rem;
 }
 
 *html .in-kct i {
-  margin: 0.45rem 0.45rem 0.15rem 0.45rem;
+  margin: 0.9rem 0.9rem 0.3rem 0.9rem;
 }
 
 .in-quest a {
@@ -133,25 +121,25 @@ body {
 }
 
 .index-con .in-jbk a {
-  width: 3.1rem;
-  height: 1.45rem;
+  width: 6.2rem;
+  height: 2.9rem;
   display: block;
   background: #00bfff;
   display: block;
-  line-height: 1.45rem;
+  line-height: 2.9rem;
 }
 
 .in-jbk i {
-  width: 0.6rem;
-  height: 0.53rem;
+  width: 1.2rem;
+  height: 1.06rem;
   display: block;
   float: left;
   background: url(../images/music.png) no-repeat;
-  margin: 0.5rem 0.3rem 0 0.55rem;
+  margin: 1rem 0.6rem 0 1.1rem;
 }
 
 *html .in-jbk i {
-  margin: 0.38rem 0.25rem 0 0.2rem;
+  margin: 0.76rem 0.5rem 0 0.4rem;
 }
 
 .index-con .in-report a {
@@ -160,53 +148,53 @@ body {
 }
 
 .in-report i {
-  width: 0.64rem;
-  height: 0.64rem;
+  width: 1.28rem;
+  height: 1.28rem;
   background: url(../images/photo.png) no-repeat;
-  margin: 0.42rem 0.3rem 0 0.49rem;
+  margin: 0.84rem 0.6rem 0 0.98rem;
 }
 
 .index-con .in-client a {
-  height: 1.3rem;
+  height: 2.6rem;
   display: block;
   background: #691bb8;
-  line-height: 1.3rem;
+  line-height: 2.6rem;
 }
 
 .in-client i {
-  width: 0.58rem;
-  height: 0.55rem;
+  width: 1.16rem;
+  height: 1.1rem;
   background: url(../images/note.png) no-repeat;
-  margin: 0.38rem 0.3rem 0 0.52rem;
+  margin: 0.76rem 0.6rem 0 1.04rem;
 }
 
 *html .in-client i {
-  margin: 0.4rem 0.3rem 0 0.22rem;
+  margin: 0.8rem 0.6rem 0 0.44rem;
 }
 
 .index-con .in-zxl a {
-  height: 1.3rem;
-  line-height: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
   display: block;
   background: #ff8000;
-  margin-top: 0.05rem;
+  margin-top: 0.1rem;
   overflow: hidden;
 }
 
 *html .index-con .in-zxl a {
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 .in-zxl i {
-  width: 0.64rem;
-  height: 0.56rem;
+  width: 1.28rem;
+  height: 1.12rem;
   display: block;
   float: left;
 }
 
 .in-forma i {
-  background: url(../images/contact.png) no-repeat 0 0.03rem;
-  margin: 0.37rem 0.25rem 0 0.95rem;
+  background: url(../images/contact.png) no-repeat 0 0.06rem;
+  margin: 0.74rem 0.5rem 0 1.9rem;
 }
 
 .index-con .in-means a {
@@ -215,48 +203,48 @@ body {
 
 .in-means i {
   background: url(../images/means.png) no-repeat;
-  margin: 0.4rem 0.25rem 0 0.95rem;
+  margin: 0.8rem 0.5rem 0 1.9rem;
 }
 
 .in-forma i,
 .in-means i {
-  *margin: 0.4rem 0.35rem 0 0.75rem;
+  *margin: 0.8rem 0.7rem 0 1.5rem;
 }
 
 *html .in-forma i,
 .in-means i {
-  margin: 0.4rem 0.35rem 0 0.35rem;
-  *margin: 0.4rem 0.35rem 0 0.8rem;
+  margin: 0.8rem 0.7rem 0 0.7rem;
+  *margin: 0.8rem 0.7rem 0 1.6rem;
 }
 
 .in-text {
-  width: 2.1rem;
+  width: 4.2rem;
   position: absolute;
-  left: 0.65rem;
-  bottom: 0.5rem;
+  left: 1.3rem;
+  bottom: 1rem;
   text-align: center;
-  font-size: 0.16rem;
-  line-height: 0.3rem;
+  font-size: 0.32rem;
+  line-height: 0.6rem;
 }
 
 .in-text em {
   color: #ffe569;
-  font-size: 0.25rem;
+  font-size: 0.5rem;
 }
 
 .in-kct .in-none {
-  width: 1.14rem;
-  height: 1.14rem;
+  width: 2.28rem;
+  height: 2.28rem;
   background: url(../images/portfolio2.png) no-repeat;
   position: absolute;
-  top: 0.01rem;
-  left: 0.18rem;
+  top: 0.02rem;
+  left: 0.36rem;
 }
 
 *html .in-kct .in-none {
   position: absolute;
-  top: 0.03rem;
-  left: 0.64rem;
+  top: 0.06rem;
+  left: 1.28rem;
 }
 
 .in-quest .in-none {
@@ -265,73 +253,73 @@ body {
 
 .in-jbk .in-text,
 .in-zxl .in-text {
-  width: 1.45rem;
-  line-height: 0.25rem;
+  width: 2.9rem;
+  line-height: 0.5rem;
   text-align: left;
-  margin-left: 0.55rem;
+  margin-left: 1.1rem;
   position: absolute;
-  left: 0.65rem;
-  bottom: 0.48rem;
+  left: 1.3rem;
+  bottom: 0.96rem;
 }
 
 .in-client .in-text {
   position: absolute;
-  left: 0.65rem;
-  bottom: 0.4rem;
+  left: 1.3rem;
+  bottom: 0.8rem;
 }
 
 .in-jbk .in-none {
-  margin: 0.5rem 0.3rem 0 0.3rem;
+  margin: 1rem 0.6rem 0 0.6rem;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .in-report .in-none {
-  margin: 0.42rem 0.3rem 0 0.3rem;
+  margin: 0.84rem 0.6rem 0 0.6rem;
 }
 
 .in-zxl .in-none {
-  margin: 0.4rem 0.3rem 0 0.42rem;
-  *margin: 0.4rem 0.3rem 0 0.42rem;
+  margin: 0.8rem 0.6rem 0 0.84rem;
+  *margin: 0.8rem 0.6rem 0 0.84rem;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .in-forma .in-none {
-  margin: 0.37rem 0.3rem 0 0.42rem;
-  *margin: 0.38rem 0.3rem 0 0.42rem;
+  margin: 0.74rem 0.6rem 0 0.84rem;
+  *margin: 0.76rem 0.6rem 0 0.84rem;
 }
 
 .in-zxl .in-text {
-  margin-left: 0.65rem;
+  margin-left: 1.3rem;
   position: absolute;
-  left: 0.65rem;
-  bottom: 0.42rem;
+  left: 1.3rem;
+  bottom: 0.84rem;
 }
 
 .in-none .in-text {
   position: absolute;
-  left: 0.65rem;
-  bottom: 0.4rem;
+  left: 1.3rem;
+  bottom: 0.8rem;
 }
 
 .in-report .in-none .in-text,
 .in-plan .in-none .in-text {
   position: absolute;
-  left: 0.65rem;
-  bottom: 0.5rem;
+  left: 1.3rem;
+  bottom: 1rem;
 }
 
 .nav-box-big span {
-  font-size: 0.33rem;
+  font-size: 0.66rem;
   color: #de2501
 }
 
 .nav-box-big span {
-  max-width: 2.6rem;
-  _max-width: 2.3rem
+  max-width: 5.2rem;
+  _max-width: 4.6rem
 }
 
 .index-con .in-none,
@@ -339,38 +327,37 @@ body {
   display: none;
 }
 
-
 .index-con .in-jbk {
-  height: 1.3rem;
+  height: 2.6rem;
   position: absolute;
   top: 0;
-  right: -0.1rem;
+  right: -0.2rem;
 }
 
 .index-con .in-plan {
-  width: 3.1rem;
-  height: 1.45rem;
+  width: 6.2rem;
+  height: 2.9rem;
   position: absolute;
   top: 0;
-  right: -0.1rem;
+  right: -0.2rem;
   z-index: 5
 }
 
 .index-con .in-report {
-  width: 3.1rem;
-  height: 1.45rem;
+  width: 6.2rem;
+  height: 2.9rem;
   position: absolute;
-  top: 1.54rem;
-  right: -0.1rem;
+  top: 3.08rem;
+  right: -0.2rem;
   z-index: 5
 }
 
 .index-con .in-client {
-  width: 3.1rem;
-  height: 1.3rem;
+  width: 6.2rem;
+  height: 2.6rem;
   position: absolute;
-  top: 3.1rem;
-  right: -0.1rem;
+  top: 6.2rem;
+  right: -0.2rem;
   z-index: 5
 }
 
@@ -381,60 +368,52 @@ body {
 
 .index-con .in-kct .ch {
   position: absolute;
-  bottom: 0.4rem;
-  left: 1.4rem;
+  bottom: 0.8rem;
+  left: 2.8rem;
 }
 
 .index-con .in-jbk .ch1 {
   position: absolute;
   top: 0;
-  left: 1.4rem;
+  left: 2.8rem;
 }
 
 .index-con .in-zxl .ch2 {
   position: absolute;
   top: 0;
-  left: 1.8rem;
+  left: 3.6rem;
 }
-
 
 .top-nav {
   background: #151515;
-  height: 0.47rem;
-  line-height: 0.47rem;
+  height: 0.94rem;
+  line-height: 0.94rem;
 }
 
 .w1000 {
-  width: 10rem;
+  width: 20rem;
   margin: 0 auto;
 }
 
 .topLogo {
   float: left;
-  padding-top: 0.05rem;
+  padding-top: 0.1rem;
 }
 
 .topLogin {
   float: right;
-  background: url(../images/admin.jpg) no-repeat 0rem 0.18rem;
-  font-size: 0.08rem;
+  background: url(../images/admin.jpg) no-repeat 0rem 0.36rem;
+  font-size: 0.16rem;
   color: #5c5c5c;
-  padding-left: 0.1rem;
+  padding-left: 0.2rem;
 }
 
 .topLogin a {
   color: #fff;
-  font-size: 0.14rem;
-  padding: 0 0.05rem;
-  margin-left: 0.05rem;
+  font-size: 0.28rem;
+  padding: 0 0.1rem;
+  margin-left: 0.1rem;
 }
-
-
-
-
-
-
-
 
 .in-kct .in-block .smaller {
   animation: scale 1s .1s ease-in-out both normal;
@@ -512,7 +491,6 @@ body {
   -webkit-animation: toRight4 1s .1s ease-in-out both normal;
   -o-animation: toRight4 1s .1s ease-in-out both normal;
 }
-
 
 @-webkit-keyframes scale {
   0% {
@@ -642,8 +620,6 @@ body {
   }
 }
 
-
-
 @-webkit-keyframes toLeft1 {
   0% {
     -webkit-transform: translateX(45%)
@@ -723,7 +699,6 @@ body {
     transform: translateX(45%)
   }
 }
-
 
 @-webkit-keyframes toLeft2 {
   0% {
@@ -893,7 +868,6 @@ body {
   }
 }
 
-
 @-webkit-keyframes toLeft4 {
   0% {
     -webkit-transform: translateX(82%)
@@ -933,7 +907,6 @@ body {
     transform: translateX(0rem)
   }
 }
-
 
 @-webkit-keyframes toRight4 {
   0% {

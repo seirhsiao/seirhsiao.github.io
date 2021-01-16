@@ -1,0 +1,138 @@
+/* 转换 px 为 rem 默认字体大小为 100px 来计算 rem 的值 */
+html {font-size: 100px;}
+/* 放大 1.1 倍的设备 */
+@media (min-width: 751px), (min-width: 376px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
+  html {
+    font-size: 110px;
+  }
+}
+/* 放大 1.2 倍的设备 */
+@media (min-width: 1081px), (min-width: 541px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 415px) and (-webkit-min-device-pixel-ratio: 3) {
+  html {
+    font-size: 120px;
+  }
+}
+
+/*
+1、写入CSS的尺寸/屏幕宽度 = UI图标注的尺寸/UI图宽度
+即：写入CSS的尺寸 = (UI图标注的尺寸*屏幕宽度)/UI图宽度
+2、我们将根元素设置为100px，则1rem=100px
+然而为了不失真要计算出对应的比例，于是1rem = 屏幕宽度/UI设计图宽度*100px
+即：屏幕640px，给的设计稿宽640px，那么这种情况下1rem就表示100px
+如果屏幕320px，给的设计稿宽640px，那么这种情况下1rem就表示50px
+要想做成响应式，只需要配合@media计算好对应屏幕下html font-size的值。
+当然为了好计算，我们全部以100px为基准
+3、于是：写入CSS的尺寸 = UI图标注的尺寸/100px*1rem
+*/
+/*
+@media (min-width: 240px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media (min-width: 411px) {
+  html {
+    font-size: 54.8px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 56.53333px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 85.33333px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 96px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    font-size: 106.66667px;
+  }
+}
+@media (min-width: 980px) {
+  html {
+    font-size: 130.66667px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 136.53333px;
+  }
+}
+@media (min-width: 1080px) {
+  html {
+    font-size: 144px;
+  }
+}
+@media (min-width: 1152px) {
+  html {
+    font-size: 153.6px;
+  }
+}
+@media (min-width: 1366px) {
+  html {
+    font-size: 182.13333px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 192px;
+  }
+}
+@media (min-width: 2160px) {
+  html {
+    font-size: 288px;
+  }
+}
+*/
